@@ -25,18 +25,49 @@
 <br>
 <br>
 
-<details><summary>Lihat Souvenir</summary>
-<p>
-<img src="Souvenir1.png" alt="Loading...">
-</p>
-</details>
+<button onclick="kliksuv()">Lihat Souvenir</button>
+<div id="sovenir">
+  <img src="Souvenir1.png" alt="Loading...">
+</div>
+<br>
+<button onclick="klikbesar()">Lihat Souvenir</button>
+<div id="besar">
+  <img src="Undangan-Besar.png" alt="Loading...">
+</div>
+<br>
+<button onclick="klikkecil()">Lihat Souvenir</button>
+<div id="kecil">
+  <img src="Undangan-Kecil.png" alt="Loading...">
+</div>
+<br>
+<h3 align="center">Copyright by <a href="http://www.helmiau.com">Helmi Amirudin</a> ® 2021 <br> Thank You ! 🤝</h3>
 
-<details><summary>Lihat Undangan</summary>
-<p>
-<img src="oke.png" alt="Loading...">
-</p>
-</details>
-
-<h4 align="center">Copyright by <a href="http://www.helmiau.com">Helmi Amirudin</a> ® 2021 <br> Thank You ! 🤝</h5>
-    </body>
+<script>
+function kliksuv() {
+  var x = document.getElementById("sovenir");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function klikbesar() {
+  var x = document.getElementById("besar");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function klikkecil() {
+  var x = document.getElementById("kecil");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+    
+</body>
 </html> 
