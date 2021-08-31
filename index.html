@@ -3,10 +3,22 @@
 <head>
 <style>
 .button {
-        background-color: #1c87c9;
+        background-color: #8c968a;
         border: none;
         color: white;
         padding: 15px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+.btns {
+        background-color: #cc9b1f;
+        border: none;
+        color: white;
+        padding: 10px 15px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -27,18 +39,24 @@
 <center>
 <button onclick="kliksuv()" class="button">Lihat Souvenir</button>
 <div id="sovenir" style="display:none">
-  <img src="Souvenir1.png" alt="Loading...">
+	<a href="https://github.com/helmiau/testweb/releases/download/latest/Souvenir1.pdf" class="btn">Unduh PDF</a>
+	<a href="https://github.com/helmiau/testweb/releases/download/latest/Souvenir1.png" class="btn">Unduh PNG</a>
+	<img src="Souvenir1.png" alt="Loading...">
 </div>
 <br>
 <button onclick="klikbesar()" class="button">Lihat Undangan Besar</button>
 <div id="besar" style="display:none">
-  <img src="Undangan-Besar.png" alt="Loading...">
+	<a href="https://github.com/helmiau/testweb/releases/download/latest/Undangan-Besar-A4-AllPages.pdf" class="btn">Unduh PDF</a>
+	<img src="Undangan-Besar.png" alt="Loading...">
 </div>
 <br>
 <button onclick="klikkecil()" class="button">Lihat Undangan Kecil</button>
 <div id="kecil" style="display:none">
-  <img src="Undangan-Kecil.png" alt="Loading...">
+	<a href="https://github.com/helmiau/testweb/releases/download/latest/Undangan-Besar-A4-AllPages.pdf" class="btn">Unduh PDF</a>
+	<img src="Undangan-Kecil.png" alt="Loading...">
 </div>
+<br>
+<a href="https://github.com/helmiau/testweb/releases/download/latest/" class="btn">Buka Tautan Seluruh File</a>
 <br>
 </center>
 <h3 align="center">Copyright by <a href="http://www.helmiau.com">Helmi Amirudin</a> ® 2021 <br> Thank You ! 🤝</h3>
