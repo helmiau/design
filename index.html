@@ -44,6 +44,15 @@
 <br>
 	<img src="Souvenir1.png" alt="Loading...">
 </div>
+<button onclick="klikrevisi()" class="button">Lihat Undangan Kecil</button>
+<div id="revisi" style="display:none">
+	<a href="https://github.com/helmiau/testweb/releases/latest/download/Undangan-Ortu-All-Pages.pdf" class="btn">Unduh Undangan Ortu PDF</a><br>
+	<a href="https://github.com/helmiau/testweb/releases/latest/download/Undangan-Teman-All-Pages.pdf" class="btn">Unduh Undangan Teman PDF</a><br>
+<br>
+	<img src="Undangan-Rev.png" alt="Loading...">
+</div>
+<br>
+<!--
 <br>
 <button onclick="klikbesar()" class="button">Lihat Undangan Besar</button>
 <div id="besar" style="display:none">
@@ -59,6 +68,7 @@
 	<img src="Undangan-Kecil.png" alt="Loading...">
 </div>
 <br>
+-->
 <a href="https://github.com/helmiau/testweb/releases/latest/" class="btn">Buka Tautan Seluruh File</a>
 <br>
 </center>
@@ -83,6 +93,14 @@ function klikbesar() {
 }
 function klikkecil() {
   var x = document.getElementById("kecil");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function klikrevisi() {
+  var x = document.getElementById("revisi");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
